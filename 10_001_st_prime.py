@@ -9,4 +9,4 @@ def main(limits: int = 10001):
 
 if __name__ == "__main__":
     result = main()
-    print(f"Result: {result}")
+    print(f"Result: {result}")  #  Result: 104743
