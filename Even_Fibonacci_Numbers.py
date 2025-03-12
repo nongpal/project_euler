@@ -1,14 +1,3 @@
-def memoize(func):
-    memo = {}
-    
-    def wraps(num):
-        if num not in memo:
-            memo[num] = func(num)
-            
-        return memo[num]
-    return wraps
-
-@memoize
 def fibonacci(n):
     if n <= 1:
         return n
