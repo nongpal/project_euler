@@ -7,4 +7,4 @@ def func2(nums: int = 1):
 if __name__ == "__main__":
     nums = 100
     result = func2(nums) - func1(nums)
-    print(f"Result: {result}")
+    print(f"Result: {result}")  #  Result: 25164150
