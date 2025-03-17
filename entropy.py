@@ -7,4 +7,4 @@ if __name__ == "__main__":
 
     probs = [0.5, 0.3, 0.2]
     result = main(probs)
-    print(result)
+    print(result)  #  Result: 1.4854752972273344
