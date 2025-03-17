@@ -1,8 +1,10 @@
 import math
 
-array = [0.5, 0.3, 0.2]
-result = 0
-for i in range(len(array)):
-    result += -array[i] * math.log2(array[i])
+def main(probs: list[int]) -> float:
+    return sum(-i * math.log2(i) for i in probs)
 
-print(result)  #  Result 1.4854752972273344
+if __name__ == "__main__":
+
+    probs = [0.5, 0.3, 0.2]
+    result = main(probs)
+    print(result)
