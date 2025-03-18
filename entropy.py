@@ -1,7 +1,7 @@
 import math
 
 def main(probs: list[int]) -> float:
-    return sum(-i * math.log2(i) for i in probs)
+    return sum(-i * math.log2(i) for i in probs if i > 0)
 
 if __name__ == "__main__":
 
